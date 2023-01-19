@@ -92,7 +92,7 @@ function checkAnswer(currentLevel) {
 
 // Funcion para emular sonidos
 function playSound(color) {
-  let audio = new Audio('../assets/sounds/' + color + '.mp3');
+  let audio = new Audio('./sounds/' + color + '.mp3');
 
   audio.play();
 }
